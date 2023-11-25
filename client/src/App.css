@@ -112,3 +112,304 @@ hr{
     font-size: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/*  */
+/*  */
+/* assign role */
+/*  */
+/*  */
+
+.assign-roles-container form {
+  margin-bottom: 15px;
+}
+
+.assign-roles-container input {
+  margin-bottom: 10px;
+}
+.form-control-sm {
+  margin-right: 10px;
+}
+.btn.btn-outline-success.btn-sm {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  height: 35px;
+  width: 100px;
+  border: 2px solid black;
+  font-size: 18px;
+  padding-top: 1px;
+  /* padding: ; */
+  color: black;
+  background-color: #999bae;
+}
+.btn-outline-success {
+  height: 35px;
+  width: 80px;
+  border: 2px solid black;
+}
+.btn.btn-outline-success.btn-sm:hover,
+.btn.btn-outline-success.btn-sm:active,
+.btn.btn-outline-success.btn-sm:focus {
+  background-color: #cccdd7; /* Adjust the color for hover, active, and focus states */
+}
+.table th {
+  /* background-color: lightblue; */
+  background-color: #808080;
+  color: white;
+}
+
+.mid-content {
+  margin-left: 30%;
+}
+
+.infoForm-content {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  max-width: 1500px;
+  margin-top: 5%;
+}
+
+.form-control-sm {
+  margin-top: 4%;
+  min-height: 20%;
+}
+
+.table-tm {
+  padding: 1%;
+  width: 85%;
+  margin-left: -15%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  width: 10%;
+}
+
+th {
+  background-color: #add8e6;
+}
+
+
+.address{
+    font-size: 17px;
+}
+
+.btn-left{
+  margin-left: 50%;
+}
+
+/*  */
+/*  */
+/* home  */
+/*  */
+/*  */
+.heading-head {
+  margin-top: 0%;
+  background-color: #000080;
+  color: white;
+  height: 100px;
+  text-align: center;
+
+}
+
+h1 {
+  margin-top: 0%;
+  font-size: 28px;
+}
+
+.home {
+  background-image: url("/public/images/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: auto;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #f8f9fa; /* Background color for the entire page */
+}
+
+.navbar {
+  background-color: #0466cf; /* Navbar background color */
+  font-size: 120%;
+  padding: 0.6%;
+}
+
+.navbar-brand {
+  font-size: 104%;
+  font-weight: bold;
+}
+
+.togo {
+  text-decoration: none;
+  color: black;
+  margin-left: 1%;
+}
+
+.front {
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 30%;
+  padding: 5%;
+  font-size: 34px;
+  color: #0466cf; /* Text color for the front section */
+  font-weight: bold;
+  text-align: center;
+  margin: 10% auto; /* Center the front section vertically */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add a shadow to the front section */
+}
+
+.front .intro-text {
+  margin-bottom: 10px;
+}
+
+.front .work-text {
+  color: #1e90ff;
+}
+
+.emphasis-text {
+  font-style: italic;
+  color: #0466cf;
+}
+
+.about {
+  padding: 20px;
+  background-color: #fff;
+  height: fit-content;
+  margin-bottom: 9.3%;
+  margin-top: 8%;
+}
+
+.features {
+  padding: 1%;
+  background-color: #fff;
+  height: fit-content;
+  margin-bottom: 2.5%;
+  margin-top: 2%;
+}
+
+.heading p {
+  text-align: center;
+  font-size: 254%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: black;
+}
+.underword {
+  border: 1px solid black;
+  width: 40%;
+  margin-left: 30%;
+  height: 0.8%;
+}
+
+.feat {
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .feat {
+    flex-direction: column;
+  }
+}
+
+.p1 {
+  flex: 1;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.p1 h1 {
+  color: #0466cf;
+}
+
+.p1 p {
+  color: #333;
+}
+
+.foot {
+  background-color: #0466cf;
+}
+
+.foot p {
+  color: #fff;
+  margin-top: 2%;
+  padding: 5%;
+  margin-bottom: 0%;
+}
+.contact {
+  display: flex;
+  margin-top: 2%;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2%;
+  background-color: #0466cf; /* Background color for the contact section */
+  color: #fff; /* Text color for contact information */
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+}
+
+.contact div {
+  flex: 1;
+  margin: 1%;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add a shadow to contact sections */
+}
+
+.contact h2 {
+  font-size: 214%;
+  font-weight: bold;
+}
+
+.phone ul,
+.socialMedia ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feedback-link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+p.copyright {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .front {
+    max-width: 90%;
+  }
+
+  .p1 {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+}
