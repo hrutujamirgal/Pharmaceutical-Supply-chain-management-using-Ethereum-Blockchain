@@ -1,6 +1,5 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import "./Home.css";
 
 const containerStyle = {
   maxWidth: "1200px",
